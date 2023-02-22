@@ -19,6 +19,7 @@
     </header>
     <section>
         <nav>
+            <p>Explore também:</p>
             <a href="#" class="navbar">Juros Simples</a>
             <a href="#" class="navbar">Amortização</a>
             <a href="#" class="navbar">Poupança</a>
@@ -31,12 +32,12 @@
             <br>
             <div class="inputs">
                 <form>
-                    <label>Capital inicial</label><br>
-                    <input type="number" id="capital" required><br><br>
-                    <label>Taxa em % em mês</label><br>
-                    <input type="number" id="taxa" required><br><br>
-                    <label>Tempo em messes</label><br>
-                    <input type="number" id="tempo" required><br><br>
+                    <label for="capital">Capital inicial</label><br>
+                    <input type="number" name="capital" id="capital" required><br><br>
+                    <label for="taxa">Taxa em % em mês</label><br>
+                    <input type="number" name="taxa"id="taxa" required><br><br>
+                    <label for="tempo">Tempo em messes</label><br>
+                    <input type="number" name="tempo" id="tempo" required><br><br>
                 
                     </div>
                     <button onclick="calcular()">Calcular</button>

@@ -35,8 +35,11 @@ section{
 nav{
     flex:10%;
     margin-right:20px;
-    margin:auto auto;
+    margin:5px 10px auto auto;
     
+}
+nav p{
+    border:1px solid black;
 }
 nav a{
     display:block;
