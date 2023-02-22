@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rafael Pereira">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <title>Juros Compostos</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="material-symbols-outlined">
+            menu
+        </a>
+        <h1>Super Calculadora</h1>
+    </header>
+    <section>
+        <nav>
+            <a href="#" class="navbar">Juros Simples</a>
+            <a href="#" class="navbar">Amortização</a>
+            <a href="#" class="navbar">Poupança</a>
+            <a href="#" class="navbar">Preço de venda</a>
+        </nav>
+        <div class="container">
+            <div class="title">
+                <h3>Juros Compostos</h3>
+            </div>
+            <br>
+            <div class="inputs">
+                <form>
+                    <label>Capital inicial</label><br>
+                    <input type="number" id="capital" required><br><br>
+                    <label>Taxa em % em mês</label><br>
+                    <input type="number" id="taxa" required><br><br>
+                    <label>Tempo em messes</label><br>
+                    <input type="number" id="tempo" required><br><br>
+                
+                    </div>
+                    <button onclick="calcular()">Calcular</button>
+                    <button type="reset" onclick="limpar()">Limpar</button>
+                </form>
+                <p id="result"></p>
+        </div>
+
+        <aside>
+            <h5>Referência</h5>
+            <div class="formula">
+                <span class="fgvmath"></span>
+            </div>
+        </aside>
+    </section>
+
+    <article></article>
+
+    <footer>
+        <h5>Links úteis</h5>
+        <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Contribua</a></li>
+        </ul>
+    </footer>
+
+
+
+
+
+    <script src="Script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.material-symbols-outlined{
+    position:relative;
+    left:10px; top:10px;
+    display:inline-block;
+}
+h1{
+    display: inline;
+    /* border: 1px solid black; */
+    position:relative;
+    left:35%;
+    top:10px;
+}
+section{
+    height:500px;
+    width:100%;
+    border:1px solid black;
+    margin-top:5%;
+    display:flex;
+    justify-content: space-between;
+}
+.container{
+    flex:30%;
+    height:400px;
+    border:1px solid red;
+    text-align: center;
+    margin:auto auto;
+
+}
+/* Estilizando o principal */
+nav{
+    flex:10%;
+    margin-right:20px;
+    margin:auto auto;
+    
+}
+nav a{
+    display:block;
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+}
+nav a:hover{
+    font-weight: bold;
+}
+aside{
+    flex:15%;
+    justify-content: center;
+    text-align: center;
+    margin:auto auto;
+}
+
+button{
+    padding:15px;
+    /* border:2px solid darkblue; */
+    color:white;
+    background: linear-gradient(90deg,#2980b9,#2c3e50);
+    border:none;
+    border-radius: 10px;
+}
+button:hover{
+    cursor:pointer;
+    font-weight: bold;
+}
+input{
+    padding:10px;
+}
+#result{
+    margin-top: 10px;
+}
+/* Estilização do rodapé */
+footer{
+    background: linear-gradient(45deg,#5A3F37,#2C7744);
+    height: 100px;
+}
+footer h5{
+    color:whitesmoke;
+    font-weight: bold;
+}
+footer ul a{
+    color:white;
+    text-decoration: none;
+}
+footer ul a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+
